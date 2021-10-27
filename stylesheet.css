@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display:flex;
+    background-color: #7eeb74;
+    background-image: linear-gradient(90deg, #d60cd6 0%, #5c067e 100%);
+
+}
+form{
+    
+    padding: 50px;
+    border: inset 2px black;
+}
+.float-left{
+    float: left;
+    display: inline;
+}
+div{
+    margin: auto;
+    float:left;
+    padding: 20px;
+}
+
+input:focus{
+    border: 5px inset blue;
+}
+#knapp, #knapp2{
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg,#328f8a,#1808ac);
+    border: 0px;
+    width: 10em;
+    margin-left: 30px;
+}
